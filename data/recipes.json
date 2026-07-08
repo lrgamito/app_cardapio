@@ -1,0 +1,773 @@
+[
+  {
+    "name": "Abobrinha à Parmegiana",
+    "ingredients": [
+      "Abobrinha",
+      "Farinha de trigo",
+      "Ovo",
+      "Farinha de rosca",
+      "Molho de tomate",
+      "Sal",
+      "Muçarela"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Arroz Frito",
+    "ingredients": [
+      "Arroz pronto",
+      "Ovo mexido",
+      "Frango",
+      "Cenoura",
+      "Milho",
+      "Ervilha",
+      "Shoyu",
+      "Cheiro-verde"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Baião de Dois",
+    "ingredients": [
+      "Feijão de corda",
+      "Manteiga de garrafa",
+      "Calabresa picada",
+      "Cebola",
+      "Arroz cru",
+      "Queijo coalho em cubos"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Baked Potato",
+    "ingredients": [
+      "Batata grande assada",
+      "Muçarela",
+      "Presunto",
+      "Strogonoff"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Batata Air Fryer",
+    "ingredients": [
+      "Batata pequena cozida",
+      "Azeite",
+      "Cheiro verde",
+      "Alho picado",
+      "Sal"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Batata Gratinada",
+    "ingredients": [
+      "Batata cozida em rodelas",
+      "Molho Bechamel",
+      "Muçarela",
+      "Parmesão"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Berinjela à Parmegiana",
+    "ingredients": [
+      "Berinjela em fatias",
+      "Farinha de trigo",
+      "Ovo",
+      "Farinha de rosca",
+      "Molho de tomate",
+      "Sal",
+      "Muçarela"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Berinjela Recheada",
+    "ingredients": [
+      "Berinjela cortada ao meio",
+      "Carne moída pronta",
+      "Muçarela",
+      "Parmesão"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Cachorro Quente",
+    "ingredients": [
+      "Salsicha",
+      "Pão",
+      "Batata palha",
+      "Ketchup",
+      "Mostarda",
+      "Maionese"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Café",
+    "ingredients": [
+      "Pão",
+      "Café preto"
+    ],
+    "source": "manual",
+    "updated_at": "2026-07-08T11:14:35"
+  },
+  {
+    "name": "Calabresa Frita",
+    "ingredients": [
+      "Calabresa"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Carne de Panela",
+    "ingredients": [
+      "Miolo de Acém"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Carne Moída",
+    "ingredients": [
+      "Acém ou Patinho",
+      "Cebola",
+      "Alho",
+      "Cheiro-Verde",
+      "Milho/Ervilha"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Chuchu Gratinado",
+    "ingredients": [
+      "Chuchu cozido",
+      "Molho Bechamel",
+      "Muçarela",
+      "Parmesão"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Couve Flor a Milanesa",
+    "ingredients": [
+      "Couve-Flor cozida",
+      "Farinha de trigo",
+      "Ovo",
+      "Leite",
+      "Sal"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Couve Flor Gratinada",
+    "ingredients": [
+      "Couve-Flor cozida",
+      "Molho Bechamel",
+      "Muçarela",
+      "Parmesão"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Cuzcuz Marroquino de Couve Flor",
+    "ingredients": [
+      "Couve-Flor cozida",
+      "Alho",
+      "Azeite",
+      "Alcaparra",
+      "Lemmon Pepper",
+      "Sal"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Escondidinho de Calabresa",
+    "ingredients": [
+      "Calabresa moída",
+      "Purê de batatas",
+      "Muçarela",
+      "Parmesão"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Escondidinho de Frango",
+    "ingredients": [
+      "Frango desfiado",
+      "Purê de batatas",
+      "Muçarela",
+      "Parmesão"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Esfiha",
+    "ingredients": [
+      "Massa",
+      "Carne"
+    ],
+    "source": "manual",
+    "updated_at": "2026-07-08T11:14:35"
+  },
+  {
+    "name": "Feijoada",
+    "ingredients": [
+      "Feijão preto",
+      "Calabresa",
+      "Bacon",
+      "Lombo Salgado",
+      "Carne Seca"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Filé de Frango",
+    "ingredients": [
+      "Peito de frango"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Filé de Frango no Shoyu e Mel",
+    "ingredients": [
+      "Peito de frango",
+      "Mel",
+      "Shoyu",
+      "Cebolinha",
+      "Farinha de trigo",
+      "Cebola",
+      "Sal",
+      "Pimenta"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Filé Mignon Suíno",
+    "ingredients": [
+      "Filé mignon suíno",
+      "Margarina",
+      "Chimichurri"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Frango à Parmegiana",
+    "ingredients": [
+      "Peito de frango",
+      "Farinha de trigo",
+      "Ovo",
+      "Farinha de rosca",
+      "Molho de tomate",
+      "Muçarela"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Frango a Rolê",
+    "ingredients": [
+      "Peito de frango",
+      "Cenoura em tiras",
+      "Vagem",
+      "Bacon",
+      "Molho de tomate",
+      "Canela em pau",
+      "Temperos"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Frango com Brócolis",
+    "ingredients": [
+      "Peito de frango",
+      "Brócolis",
+      "Shoyu",
+      "Creme de leite",
+      "Temperos"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Frango Xadrez",
+    "ingredients": [
+      "Peito de frango",
+      "Pimentão",
+      "Cebola",
+      "Amendoim",
+      "Temperos"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Hamburguer",
+    "ingredients": [
+      "Patinho moído",
+      "Bacon",
+      "Sal",
+      "Pimenta"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Iscas de Frango",
+    "ingredients": [
+      "Peito de frango",
+      "Temperos",
+      "Farinha de trigo"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Karaguê",
+    "ingredients": [
+      "Coxa/Sobrecoxa",
+      "Temperos",
+      "Farinha de trigo"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Kibe de forno",
+    "ingredients": [
+      "Trigo para kibe",
+      "Carne moída",
+      "Hortelã",
+      "Tomate",
+      "Cebola",
+      "Cebolinha",
+      "Temperos"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Lanche Natural",
+    "ingredients": [
+      "Pão de forma",
+      "Frango desfiado",
+      "Maionese"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Lasanha",
+    "ingredients": [
+      "Massa de lasanha",
+      "Carne moída",
+      "Muçarela"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Lasanha 4 Queijos",
+    "ingredients": [
+      "Massa de lasanha",
+      "Muçarela",
+      "Parmesão"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Lasanha de Berinjela",
+    "ingredients": [
+      "Berinjela",
+      "Molho de tomate",
+      "Muçarela"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Linguiça na Air Fryer",
+    "ingredients": [
+      "Linguiça"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Macarrão ao Pesto",
+    "ingredients": [
+      "Macarrão",
+      "Molho pesto",
+      "Parmesão"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Macarrão Carbonara",
+    "ingredients": [
+      "Macarrão",
+      "Bacon",
+      "Gema de ovo"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Macarrão Molho Branco",
+    "ingredients": [
+      "Macarrão",
+      "Molho Bechamel",
+      "Muçarela"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Macarrão Molho Laranja",
+    "ingredients": [
+      "Macarrão",
+      "Molho de tomate",
+      "Creme de leite"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Macarrão Molho Vermelho",
+    "ingredients": [
+      "Macarrão",
+      "Molho de tomate"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Macarrão na Panela de Pressão",
+    "ingredients": [
+      "Macarrão",
+      "Molho de tomate",
+      "Creme de leite"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Misto Quente",
+    "ingredients": [
+      "Pão de forma",
+      "Presunto",
+      "Muçarela"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Molho Bechamel",
+    "ingredients": [
+      "Leite",
+      "Farinha de trigo",
+      "Manteiga"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Nhoque",
+    "ingredients": [
+      "Molho",
+      "Queijo",
+      "Nhoque"
+    ],
+    "source": "manual",
+    "updated_at": "2026-07-08T14:52:19"
+  },
+  {
+    "name": "Nhoque de Batata Doce com Espinafre",
+    "ingredients": [
+      "Batata doce",
+      "Espinafre",
+      "Farinha de trigo"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Nuggets de Frango",
+    "ingredients": [
+      "Frango",
+      "Farinha de rosca",
+      "Ovo"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Panqueca de Carne Moída",
+    "ingredients": [
+      "Massa de panqueca",
+      "Carne moída",
+      "Molho de tomate"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Panqueca de Frango",
+    "ingredients": [
+      "Massa de panqueca",
+      "Frango desfiado",
+      "Molho de tomate"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Pão Recheado",
+    "ingredients": [
+      "Pão",
+      "Presunto",
+      "Muçarela"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Pastel na Air Fryer",
+    "ingredients": [
+      "Massa de pastel",
+      "Presunto",
+      "Muçarela"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Peixe Grelhado",
+    "ingredients": [
+      "Filé de peixe"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Pizza",
+    "ingredients": [
+      "Queijo"
+    ],
+    "source": "manual",
+    "updated_at": "2026-07-08T14:51:31"
+  },
+  {
+    "name": "Poke",
+    "ingredients": [
+      "Arroz japonês",
+      "Salmão",
+      "Pepino"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Salada de Macarrão",
+    "ingredients": [
+      "Macarrão",
+      "Maionese",
+      "Cenoura"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Saladão",
+    "ingredients": [
+      "Alface",
+      "Tomate",
+      "Cenoura"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Salpicão de Frango",
+    "ingredients": [
+      "Frango desfiado",
+      "Maionese",
+      "Cenoura"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Sopa de 4 Queijos",
+    "ingredients": [
+      "Leite",
+      "Muçarela",
+      "Parmesão"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Sopa de Batata",
+    "ingredients": [
+      "Batata",
+      "Cebola",
+      "Creme de leite"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Sopa de Caldinho de Feijão",
+    "ingredients": [
+      "Feijão",
+      "Bacon"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Sopa de Caldo Verde",
+    "ingredients": [
+      "Batata",
+      "Couve",
+      "Calabresa"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Sopa de Feijão com Macarrão",
+    "ingredients": [
+      "Feijão",
+      "Macarrão"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Stick de Abobrinha",
+    "ingredients": [
+      "Abobrinha",
+      "Farinha de rosca",
+      "Parmesão"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Strogonoff de Frango",
+    "ingredients": [
+      "Frango",
+      "Creme de leite",
+      "Molho de tomate"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Sushi de Travessa",
+    "ingredients": [
+      "Arroz japonês",
+      "Salmão",
+      "Cream cheese"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Tabule",
+    "ingredients": [
+      "Trigo para quibe",
+      "Tomate",
+      "Pepino"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Torta de Abobrinha",
+    "ingredients": [
+      "Massa de torta",
+      "Abobrinha",
+      "Muçarela"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Torta de Atum",
+    "ingredients": [
+      "Massa de torta",
+      "Atum",
+      "Cebola"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Torta de Brócolis",
+    "ingredients": [
+      "Massa de torta",
+      "Brócolis",
+      "Muçarela"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Torta de Frango",
+    "ingredients": [
+      "Massa de torta",
+      "Frango desfiado",
+      "Requeijão"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Tortilha com Carne Moída",
+    "ingredients": [
+      "Tortilha",
+      "Carne moída",
+      "Queijo"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  },
+  {
+    "name": "Yakisoba",
+    "ingredients": [
+      "Macarrão para yakisoba",
+      "Carne bovina",
+      "Legumes"
+    ],
+    "source": "xlsx",
+    "updated_at": "2026-07-08T14:50:32"
+  }
+]

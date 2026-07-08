@@ -2,3 +2,7 @@ prompt.md
 PLANO_AUTOMACAO_CARDAPIO.md
 .agents
 .codex
+__pycache__/
+.pytest_cache/
+.streamlit/
+.venv/
