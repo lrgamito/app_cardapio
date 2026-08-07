@@ -10,8 +10,7 @@
       "Sal",
       "Muçarela"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Arroz Frito",
@@ -25,8 +24,7 @@
       "Shoyu",
       "Cheiro-verde"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Baião de Dois",
@@ -38,8 +36,7 @@
       "Arroz cru",
       "Queijo coalho em cubos"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Baked Potato",
@@ -49,8 +46,7 @@
       "Presunto",
       "Strogonoff"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Batata Air Fryer",
@@ -61,8 +57,7 @@
       "Alho picado",
       "Sal"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Batata Gratinada",
@@ -72,8 +67,7 @@
       "Muçarela",
       "Parmesão"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Berinjela à Parmegiana",
@@ -86,8 +80,7 @@
       "Sal",
       "Muçarela"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Berinjela Recheada",
@@ -97,8 +90,7 @@
       "Muçarela",
       "Parmesão"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Cachorro Quente",
@@ -110,33 +102,21 @@
       "Mostarda",
       "Maionese"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
-  },
-  {
-    "name": "Café",
-    "ingredients": [
-      "Pão",
-      "Café preto"
-    ],
-    "source": "manual",
-    "updated_at": "2026-07-08T11:14:35"
+    "source": "xlsx"
   },
   {
     "name": "Calabresa Frita",
     "ingredients": [
       "Calabresa"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Carne de Panela",
     "ingredients": [
       "Miolo de Acém"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Carne Moída",
@@ -147,8 +127,7 @@
       "Cheiro-Verde",
       "Milho/Ervilha"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Chuchu Gratinado",
@@ -158,8 +137,7 @@
       "Muçarela",
       "Parmesão"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Couve Flor a Milanesa",
@@ -170,8 +148,7 @@
       "Leite",
       "Sal"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Couve Flor Gratinada",
@@ -181,8 +158,7 @@
       "Muçarela",
       "Parmesão"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Cuzcuz Marroquino de Couve Flor",
@@ -194,8 +170,7 @@
       "Lemmon Pepper",
       "Sal"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Escondidinho de Calabresa",
@@ -205,8 +180,7 @@
       "Muçarela",
       "Parmesão"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Escondidinho de Frango",
@@ -216,17 +190,7 @@
       "Muçarela",
       "Parmesão"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
-  },
-  {
-    "name": "Esfiha",
-    "ingredients": [
-      "Massa",
-      "Carne"
-    ],
-    "source": "manual",
-    "updated_at": "2026-07-08T11:14:35"
+    "source": "xlsx"
   },
   {
     "name": "Feijoada",
@@ -237,16 +201,14 @@
       "Lombo Salgado",
       "Carne Seca"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Filé de Frango",
     "ingredients": [
       "Peito de frango"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Filé de Frango no Shoyu e Mel",
@@ -260,8 +222,7 @@
       "Sal",
       "Pimenta"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Filé Mignon Suíno",
@@ -270,8 +231,7 @@
       "Margarina",
       "Chimichurri"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Frango à Parmegiana",
@@ -283,8 +243,7 @@
       "Molho de tomate",
       "Muçarela"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Frango a Rolê",
@@ -297,8 +256,7 @@
       "Canela em pau",
       "Temperos"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Frango com Brócolis",
@@ -309,8 +267,7 @@
       "Creme de leite",
       "Temperos"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Frango Xadrez",
@@ -321,8 +278,7 @@
       "Amendoim",
       "Temperos"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Hamburguer",
@@ -332,8 +288,7 @@
       "Sal",
       "Pimenta"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Iscas de Frango",
@@ -342,8 +297,7 @@
       "Temperos",
       "Farinha de trigo"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Karaguê",
@@ -352,8 +306,7 @@
       "Temperos",
       "Farinha de trigo"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Kibe de forno",
@@ -366,8 +319,7 @@
       "Cebolinha",
       "Temperos"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Lanche Natural",
@@ -376,8 +328,7 @@
       "Frango desfiado",
       "Maionese"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Lasanha",
@@ -386,8 +337,7 @@
       "Carne moída",
       "Muçarela"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Lasanha 4 Queijos",
@@ -396,8 +346,7 @@
       "Muçarela",
       "Parmesão"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Lasanha de Berinjela",
@@ -406,16 +355,14 @@
       "Molho de tomate",
       "Muçarela"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Linguiça na Air Fryer",
     "ingredients": [
       "Linguiça"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Macarrão ao Pesto",
@@ -424,8 +371,7 @@
       "Molho pesto",
       "Parmesão"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Macarrão Carbonara",
@@ -434,8 +380,7 @@
       "Bacon",
       "Gema de ovo"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Macarrão Molho Branco",
@@ -444,8 +389,7 @@
       "Molho Bechamel",
       "Muçarela"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Macarrão Molho Laranja",
@@ -454,8 +398,7 @@
       "Molho de tomate",
       "Creme de leite"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Macarrão Molho Vermelho",
@@ -463,8 +406,7 @@
       "Macarrão",
       "Molho de tomate"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Macarrão na Panela de Pressão",
@@ -473,8 +415,7 @@
       "Molho de tomate",
       "Creme de leite"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Misto Quente",
@@ -483,8 +424,7 @@
       "Presunto",
       "Muçarela"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Molho Bechamel",
@@ -493,18 +433,15 @@
       "Farinha de trigo",
       "Manteiga"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Nhoque",
     "ingredients": [
-      "Molho",
-      "Queijo",
-      "Nhoque"
+      "Batata",
+      "Farinha de trigo"
     ],
-    "source": "manual",
-    "updated_at": "2026-07-08T14:52:19"
+    "source": "xlsx"
   },
   {
     "name": "Nhoque de Batata Doce com Espinafre",
@@ -513,8 +450,7 @@
       "Espinafre",
       "Farinha de trigo"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Nuggets de Frango",
@@ -523,8 +459,7 @@
       "Farinha de rosca",
       "Ovo"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Panqueca de Carne Moída",
@@ -533,8 +468,7 @@
       "Carne moída",
       "Molho de tomate"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Panqueca de Frango",
@@ -543,8 +477,7 @@
       "Frango desfiado",
       "Molho de tomate"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Pão Recheado",
@@ -553,8 +486,7 @@
       "Presunto",
       "Muçarela"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Pastel na Air Fryer",
@@ -563,24 +495,14 @@
       "Presunto",
       "Muçarela"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Peixe Grelhado",
     "ingredients": [
       "Filé de peixe"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
-  },
-  {
-    "name": "Pizza",
-    "ingredients": [
-      "Queijo"
-    ],
-    "source": "manual",
-    "updated_at": "2026-07-08T14:51:31"
+    "source": "xlsx"
   },
   {
     "name": "Poke",
@@ -589,8 +511,7 @@
       "Salmão",
       "Pepino"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Salada de Macarrão",
@@ -599,8 +520,7 @@
       "Maionese",
       "Cenoura"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Saladão",
@@ -609,8 +529,7 @@
       "Tomate",
       "Cenoura"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Salpicão de Frango",
@@ -619,8 +538,7 @@
       "Maionese",
       "Cenoura"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Sopa de 4 Queijos",
@@ -629,8 +547,7 @@
       "Muçarela",
       "Parmesão"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Sopa de Batata",
@@ -639,8 +556,7 @@
       "Cebola",
       "Creme de leite"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Sopa de Caldinho de Feijão",
@@ -648,8 +564,7 @@
       "Feijão",
       "Bacon"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Sopa de Caldo Verde",
@@ -658,8 +573,7 @@
       "Couve",
       "Calabresa"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Sopa de Feijão com Macarrão",
@@ -667,8 +581,7 @@
       "Feijão",
       "Macarrão"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Stick de Abobrinha",
@@ -677,8 +590,7 @@
       "Farinha de rosca",
       "Parmesão"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Strogonoff de Frango",
@@ -687,8 +599,7 @@
       "Creme de leite",
       "Molho de tomate"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Sushi de Travessa",
@@ -697,8 +608,7 @@
       "Salmão",
       "Cream cheese"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Tabule",
@@ -707,8 +617,7 @@
       "Tomate",
       "Pepino"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Torta de Abobrinha",
@@ -717,8 +626,7 @@
       "Abobrinha",
       "Muçarela"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Torta de Atum",
@@ -727,8 +635,7 @@
       "Atum",
       "Cebola"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Torta de Brócolis",
@@ -737,8 +644,7 @@
       "Brócolis",
       "Muçarela"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Torta de Frango",
@@ -747,8 +653,7 @@
       "Frango desfiado",
       "Requeijão"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Tortilha com Carne Moída",
@@ -757,8 +662,7 @@
       "Carne moída",
       "Queijo"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
   },
   {
     "name": "Yakisoba",
@@ -767,7 +671,15 @@
       "Carne bovina",
       "Legumes"
     ],
-    "source": "xlsx",
-    "updated_at": "2026-07-08T14:50:32"
+    "source": "xlsx"
+  },
+  {
+    "name": "Café",
+    "ingredients": [
+      "Pão",
+      "Café preto"
+    ],
+    "source": "manual",
+    "updated_at": "2026-08-06T23:52:59"
   }
 ]

@@ -6,7 +6,6 @@ from pathlib import Path
 import streamlit as st
 
 from cardapio.planner import MenuGenerationError, generate_weekly_menu
-from cardapio.spreadsheet import SpreadsheetImportError, load_recipes_from_workbook
 from cardapio.storage import (
     RECIPES_PATH,
     delete_recipe,
@@ -14,12 +13,7 @@ from cardapio.storage import (
     load_recipes,
     normalize_text,
     save_recipe,
-    sync_recipes,
 )
-
-
-BASE_DIR = Path(__file__).resolve().parent
-WORKBOOK_PATH = BASE_DIR / "Receitas Dia a Dia.xlsx"
 
 
 def render_menu_table(weekly_menu: list[dict[str, str]]) -> None:
@@ -28,14 +22,7 @@ def render_menu_table(weekly_menu: list[dict[str, str]]) -> None:
         rows.append({"Dia": item["day"], "Refeição": "Almoço", "Prato": item["lunch"]})
         rows.append({"Dia": "", "Refeição": "Janta", "Prato": item["dinner"]})
 
-    st.dataframe(rows, use_container_width=True, hide_index=True, height=531)
-
-
-def bootstrap_recipes() -> tuple[int, int]:
-    if not WORKBOOK_PATH.exists():
-        return 0, 0
-    imported = load_recipes_from_workbook(WORKBOOK_PATH)
-    return sync_recipes(imported)
+    st.dataframe(rows, width="stretch", hide_index=True, height=531)
 
 
 def render_menu_tab(recipes: list[dict[str, object]]) -> None:
@@ -63,18 +50,7 @@ def render_menu_tab(recipes: list[dict[str, object]]) -> None:
 def render_recipes_tab(recipes: list[dict[str, object]]) -> None:
     st.subheader("Banco de receitas")
 
-    left, right = st.columns([1, 1])
-    with left:
-        st.caption(f"Fonte principal: `{WORKBOOK_PATH.name}`")
-    with right:
-        if st.button("Importar / sincronizar planilha", use_container_width=True):
-            try:
-                imported = load_recipes_from_workbook(WORKBOOK_PATH)
-                created, updated = sync_recipes(imported)
-                st.success(f"Sincronização concluída: {created} criadas, {updated} atualizadas.")
-                st.rerun()
-            except (FileNotFoundError, SpreadsheetImportError) as exc:
-                st.error(str(exc))
+    st.caption(f"Banco local: `{RECIPES_PATH.name}`")
 
     search = normalize_text(st.text_input("Buscar receitas", placeholder="Ex.: frango, lanche, sopa"))
     filtered = [
@@ -94,7 +70,7 @@ def render_recipes_tab(recipes: list[dict[str, object]]) -> None:
             }
             for recipe in filtered
         ],
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -144,17 +120,6 @@ def main() -> None:
 
     ensure_data_files()
     recipes = load_recipes()
-    if not recipes and WORKBOOK_PATH.exists():
-        try:
-            created, updated = bootstrap_recipes()
-            recipes = load_recipes()
-            if created or updated:
-                st.toast(
-                    f"Base inicial importada da planilha: {created} criadas, {updated} atualizadas.",
-                    icon="📥",
-                )
-        except SpreadsheetImportError as exc:
-            st.warning(f"Não foi possível importar a planilha automaticamente: {exc}")
 
     st.title("🍽️ App de Cardápio Semanal")
     st.caption("Gerencie receitas e gere uma semana inteira de pratos.")

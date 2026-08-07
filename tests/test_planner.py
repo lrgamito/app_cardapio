@@ -2,11 +2,9 @@ from __future__ import annotations
 
 import random
 import unittest
-from pathlib import Path
 
 from cardapio.constants import DAYS
 from cardapio.planner import generate_weekly_menu, recipe_weight
-from cardapio.spreadsheet import load_recipes_from_workbook
 
 
 class PlannerTests(unittest.TestCase):
@@ -57,15 +55,6 @@ class PlannerTests(unittest.TestCase):
         weekend_rate = weekend_special_hits / (runs * 4)
         midweek_rate = midweek_special_hits / (runs * 8)
         self.assertGreater(weekend_rate, midweek_rate)
-
-
-class SpreadsheetImportTests(unittest.TestCase):
-    def test_imports_required_workbook(self) -> None:
-        workbook_path = Path(__file__).resolve().parent.parent / "Receitas Dia a Dia.xlsx"
-        recipes = load_recipes_from_workbook(workbook_path)
-        self.assertGreaterEqual(len(recipes), 50)
-        self.assertEqual("Abobrinha à Parmegiana", recipes[0]["name"])
-        self.assertIn("Abobrinha", recipes[0]["ingredients"][0])
 
 
 if __name__ == "__main__":
