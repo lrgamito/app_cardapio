@@ -4,5 +4,6 @@ PLANO_AUTOMACAO_CARDAPIO.md
 .codex
 __pycache__/
 .pytest_cache/
-.streamlit/
+.streamlit/secrets.toml
+!.streamlit/secrets.toml.example
 .venv/
