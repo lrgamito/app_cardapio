@@ -4,7 +4,7 @@ services:
     container_name: cardapio
     restart: always            # sobe junto com o daemon no boot
     ports:
-      - "8081:8501"            # bind direto em 0.0.0.0, porta host 8081
+      - "8501:8501"            # bind direto em 0.0.0.0 (porta 8501 já liberada no iptables)
     environment:
       - APP_AUTH_USERNAME=${APP_AUTH_USERNAME:-admin}
       - APP_AUTH_PASSWORD=${APP_AUTH_PASSWORD:?Defina-APP_AUTH_PASSWORD}
