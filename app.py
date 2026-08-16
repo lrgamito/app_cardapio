@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import json
 import random
+from datetime import datetime
 from pathlib import Path
 
 import streamlit as st
@@ -13,6 +15,7 @@ from cardapio.storage import (
     load_recipes,
     normalize_text,
     save_recipe,
+    sync_recipes,
 )
 
 
@@ -113,6 +116,46 @@ def render_recipes_tab(recipes: list[dict[str, object]]) -> None:
         delete_recipe(selected_recipe["name"])
         st.success("Receita removida.")
         st.rerun()
+
+    st.divider()
+    st.subheader("Importar / Exportar banco de receitas")
+
+    col_export, col_import = st.columns(2)
+
+    with col_export:
+        export_data = json.dumps(recipes, ensure_ascii=False, indent=2)
+        timestamp = datetime.now().strftime("%Y-%m-%d")
+        st.download_button(
+            label="Exportar receitas (JSON)",
+            data=export_data,
+            file_name=f"receitas_{timestamp}.json",
+            mime="application/json",
+            use_container_width=True,
+        )
+
+    with col_import:
+        uploaded = st.file_uploader(
+            "Importar receitas (JSON)",
+            type="json",
+            label_visibility="collapsed",
+        )
+        if uploaded is not None:
+            try:
+                imported = json.loads(uploaded.read())
+            except (json.JSONDecodeError, ValueError):
+                st.error("Arquivo inválido. Envie um JSON com uma lista de receitas.")
+                imported = None
+
+            if imported is not None:
+                if not isinstance(imported, list):
+                    st.error("O JSON deve conter uma lista de receitas.")
+                else:
+                    try:
+                        created, updated = sync_recipes(imported)
+                        st.success(f"{created} receita(s) adicionadas, {updated} receita(s) atualizadas.")
+                        st.rerun()
+                    except ValueError as exc:
+                        st.error(f"Erro na importação: {exc}")
 
 
 def main() -> None:
