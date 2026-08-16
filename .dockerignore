@@ -1,0 +1,12 @@
+.git
+.venv
+__pycache__
+.pytest_cache
+docs
+tests
+Receitas Dia a Dia.xlsx
+.streamlit/secrets.toml
+README.md
+prompt.md
+PLANO_AUTOMACAO_CARDAPIO.md
+*.md
