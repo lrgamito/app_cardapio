@@ -7,6 +7,7 @@ from pathlib import Path
 
 import streamlit as st
 
+from cardapio.auth import is_authenticated, logout, render_login_form
 from cardapio.planner import MenuGenerationError, generate_weekly_menu
 from cardapio.storage import (
     RECIPES_PATH,
@@ -51,9 +52,16 @@ def render_menu_tab(recipes: list[dict[str, object]]) -> None:
 
 
 def render_recipes_tab(recipes: list[dict[str, object]]) -> None:
+    if not is_authenticated():
+        render_login_form()
+        return
+
     st.subheader("Banco de receitas")
 
-    st.caption(f"Banco local: `{RECIPES_PATH.name}`")
+    st.caption(f"Banco local: `{RECIPES_PATH.name}`  ·  Usuário: `{st.session_state['authenticated_user']}`")
+
+    if st.button("Sair", type="secondary"):
+        logout()
 
     search = normalize_text(st.text_input("Buscar receitas", placeholder="Ex.: frango, lanche, sopa"))
     filtered = [
